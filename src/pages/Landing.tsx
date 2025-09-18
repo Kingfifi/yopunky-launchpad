@@ -15,7 +15,7 @@ const Landing = () => {
           style={{ backgroundImage: `url(${heroImage})` }}
         />
         <div className="relative container mx-auto px-4 py-20 text-center">
-          <h1 className="mb-6 text-6xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
+          <h1 className="mb-6 text-6xl font-bold bg-gradient-to-r from-logo-blue via-logo-pink via-logo-coral to-logo-yellow bg-clip-text text-transparent">
             Welcome to YoPunky
           </h1>
           <p className="mb-8 text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -35,29 +35,29 @@ const Landing = () => {
 
       {/* Features Section */}
       <section className="py-20 container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-secondary to-accent bg-clip-text text-transparent">
+        <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-logo-pink via-logo-purple to-logo-blue bg-clip-text text-transparent">
           Why Choose YoPunky?
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <Card className="p-6 border-border hover:border-primary transition-colors group">
-            <div className="w-12 h-12 bg-gradient-to-r from-primary to-secondary rounded-lg mb-4 group-hover:shadow-[var(--glow-primary)] transition-shadow"></div>
-            <h3 className="text-xl font-bold mb-3 text-primary">Bold Innovation</h3>
+          <Card className="p-6 border-border hover:border-logo-blue transition-colors group">
+            <div className="w-12 h-12 bg-gradient-to-r from-logo-blue to-logo-purple rounded-lg mb-4 group-hover:shadow-[var(--glow-primary)] transition-shadow"></div>
+            <h3 className="text-xl font-bold mb-3 text-logo-blue">Bold Innovation</h3>
             <p className="text-muted-foreground">
               We push the limits of what's possible, creating solutions that challenge the status quo.
             </p>
           </Card>
           
-          <Card className="p-6 border-border hover:border-secondary transition-colors group">
-            <div className="w-12 h-12 bg-gradient-to-r from-secondary to-accent rounded-lg mb-4 group-hover:shadow-[var(--glow-secondary)] transition-shadow"></div>
-            <h3 className="text-xl font-bold mb-3 text-secondary">Rebellious Spirit</h3>
+          <Card className="p-6 border-border hover:border-logo-pink transition-colors group">
+            <div className="w-12 h-12 bg-gradient-to-r from-logo-pink to-logo-coral rounded-lg mb-4 group-hover:shadow-[var(--glow-secondary)] transition-shadow"></div>
+            <h3 className="text-xl font-bold mb-3 text-logo-pink">Rebellious Spirit</h3>
             <p className="text-muted-foreground">
               Our punk ethos drives us to question everything and build something extraordinary.
             </p>
           </Card>
           
-          <Card className="p-6 border-border hover:border-accent transition-colors group">
-            <div className="w-12 h-12 bg-gradient-to-r from-accent to-primary rounded-lg mb-4 group-hover:shadow-[var(--glow-accent)] transition-shadow"></div>
-            <h3 className="text-xl font-bold mb-3 text-accent">Electric Results</h3>
+          <Card className="p-6 border-border hover:border-logo-green transition-colors group">
+            <div className="w-12 h-12 bg-gradient-to-r from-logo-green to-logo-yellow rounded-lg mb-4 group-hover:shadow-[var(--glow-accent)] transition-shadow"></div>
+            <h3 className="text-xl font-bold mb-3 text-logo-green">Electric Results</h3>
             <p className="text-muted-foreground">
               Experience the energy and power of our cutting-edge solutions.
             </p>
@@ -68,7 +68,7 @@ const Landing = () => {
       {/* CTA Section */}
       <section className="py-20 bg-card">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+          <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-logo-coral via-logo-yellow to-logo-green bg-clip-text text-transparent">
             Ready to Go Punk?
           </h2>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">

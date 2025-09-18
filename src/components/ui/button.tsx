@@ -15,8 +15,8 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80 shadow-[var(--glow-secondary)] hover:shadow-[var(--glow-secondary)]",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        punk: "bg-gradient-to-r from-primary to-secondary text-foreground font-bold hover:from-secondary hover:to-primary shadow-[var(--glow-primary)] hover:shadow-[var(--glow-secondary)] transition-all duration-300",
-        neon: "bg-transparent border-2 border-accent text-accent hover:bg-accent hover:text-accent-foreground shadow-[var(--glow-accent)] hover:shadow-[var(--glow-accent)] font-bold",
+        punk: "bg-gradient-to-r from-logo-pink to-logo-purple text-foreground font-bold hover:from-logo-purple hover:to-logo-blue shadow-[var(--glow-secondary)] hover:shadow-[var(--glow-rainbow)] transition-all duration-300",
+        neon: "bg-transparent border-2 border-logo-green text-logo-green hover:bg-logo-green hover:text-background shadow-[var(--glow-accent)] hover:shadow-[var(--glow-accent)] font-bold",
       },
       size: {
         default: "h-10 px-4 py-2",

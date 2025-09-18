@@ -47,12 +47,14 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        // Punk theme colors
-        neon: {
-          glow: "hsl(var(--neon-glow))",
-          pink: "hsl(var(--punk-pink))",
-          green: "hsl(var(--electric-green))",
-          purple: "hsl(var(--cyber-purple))",
+        // Logo-inspired color palette
+        logo: {
+          blue: "hsl(var(--logo-blue))",
+          pink: "hsl(var(--logo-pink))",
+          coral: "hsl(var(--logo-coral))",
+          yellow: "hsl(var(--logo-yellow))",
+          green: "hsl(var(--logo-green))",
+          purple: "hsl(var(--logo-purple))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",

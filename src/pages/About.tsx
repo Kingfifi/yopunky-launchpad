@@ -10,7 +10,7 @@ const About = () => {
       {/* Hero Section */}
       <section className="py-20 container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="mb-6 text-5xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
+          <h1 className="mb-6 text-5xl font-bold bg-gradient-to-r from-logo-blue via-logo-pink via-logo-purple to-logo-coral bg-clip-text text-transparent">
             About YoPunky
           </h1>
           <p className="text-xl text-muted-foreground leading-relaxed">
@@ -24,7 +24,7 @@ const About = () => {
       <section className="py-20 bg-card">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-8 text-center bg-gradient-to-r from-secondary to-accent bg-clip-text text-transparent">
+            <h2 className="text-3xl font-bold mb-8 text-center bg-gradient-to-r from-logo-green via-logo-blue to-logo-purple bg-clip-text text-transparent">
               Our Story
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -43,11 +43,11 @@ const About = () => {
                   Join Our Mission
                 </Button>
               </div>
-              <Card className="p-8 border-primary/20 bg-gradient-to-br from-primary/5 to-secondary/5">
-                <h3 className="text-2xl font-bold mb-4 text-primary">Our Mission</h3>
+              <Card className="p-8 border-logo-blue/20 bg-gradient-to-br from-logo-blue/10 to-logo-pink/10">
+                <h3 className="text-2xl font-bold mb-4 text-logo-blue">Our Mission</h3>
                 <p className="text-muted-foreground leading-relaxed">
                   To disrupt the status quo and empower creators, innovators, and rebels 
-                  to build the future they envision. We're here to amplify the voices 
+                  to build the future they envision. We're here to amplify the voices
                   that refuse to be silenced and support the ideas that change the world.
                 </p>
               </Card>
@@ -58,37 +58,37 @@ const About = () => {
 
       {/* Values Section */}
       <section className="py-20 container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+        <h2 className="text-3xl font-bold text-center mb-12 bg-gradient-to-r from-logo-coral via-logo-yellow to-logo-green bg-clip-text text-transparent">
           Our Values
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          <Card className="p-6 text-center border-border hover:border-primary transition-colors group">
-            <div className="w-16 h-16 bg-gradient-to-r from-primary to-secondary rounded-full mx-auto mb-4 group-hover:shadow-[var(--glow-primary)] transition-shadow"></div>
-            <h3 className="text-lg font-bold mb-2 text-primary">Authenticity</h3>
+          <Card className="p-6 text-center border-border hover:border-logo-blue transition-colors group">
+            <div className="w-16 h-16 bg-gradient-to-r from-logo-blue to-logo-purple rounded-full mx-auto mb-4 group-hover:shadow-[var(--glow-primary)] transition-shadow"></div>
+            <h3 className="text-lg font-bold mb-2 text-logo-blue">Authenticity</h3>
             <p className="text-sm text-muted-foreground">
               We stay true to our roots and never compromise our rebellious spirit.
             </p>
           </Card>
           
-          <Card className="p-6 text-center border-border hover:border-secondary transition-colors group">
-            <div className="w-16 h-16 bg-gradient-to-r from-secondary to-accent rounded-full mx-auto mb-4 group-hover:shadow-[var(--glow-secondary)] transition-shadow"></div>
-            <h3 className="text-lg font-bold mb-2 text-secondary">Innovation</h3>
+          <Card className="p-6 text-center border-border hover:border-logo-pink transition-colors group">
+            <div className="w-16 h-16 bg-gradient-to-r from-logo-pink to-logo-coral rounded-full mx-auto mb-4 group-hover:shadow-[var(--glow-secondary)] transition-shadow"></div>
+            <h3 className="text-lg font-bold mb-2 text-logo-pink">Innovation</h3>
             <p className="text-sm text-muted-foreground">
               We constantly push boundaries and explore uncharted territories.
             </p>
           </Card>
           
-          <Card className="p-6 text-center border-border hover:border-accent transition-colors group">
-            <div className="w-16 h-16 bg-gradient-to-r from-accent to-primary rounded-full mx-auto mb-4 group-hover:shadow-[var(--glow-accent)] transition-shadow"></div>
-            <h3 className="text-lg font-bold mb-2 text-accent">Community</h3>
+          <Card className="p-6 text-center border-border hover:border-logo-green transition-colors group">
+            <div className="w-16 h-16 bg-gradient-to-r from-logo-green to-logo-yellow rounded-full mx-auto mb-4 group-hover:shadow-[var(--glow-accent)] transition-shadow"></div>
+            <h3 className="text-lg font-bold mb-2 text-logo-green">Community</h3>
             <p className="text-sm text-muted-foreground">
               We build and support a tribe of like-minded rebels and creators.
             </p>
           </Card>
           
-          <Card className="p-6 text-center border-border hover:border-primary transition-colors group">
-            <div className="w-16 h-16 bg-gradient-to-r from-primary to-accent rounded-full mx-auto mb-4 group-hover:shadow-[var(--glow-primary)] transition-shadow"></div>
-            <h3 className="text-lg font-bold mb-2 text-primary">Impact</h3>
+          <Card className="p-6 text-center border-border hover:border-logo-purple transition-colors group">
+            <div className="w-16 h-16 bg-gradient-to-r from-logo-purple to-logo-blue rounded-full mx-auto mb-4 group-hover:shadow-[var(--glow-primary)] transition-shadow"></div>
+            <h3 className="text-lg font-bold mb-2 text-logo-purple">Impact</h3>
             <p className="text-sm text-muted-foreground">
               Everything we do is designed to create meaningful change.
             </p>
@@ -99,7 +99,7 @@ const About = () => {
       {/* Team Section */}
       <section className="py-20 bg-card">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-secondary to-accent bg-clip-text text-transparent">
+          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-logo-yellow via-logo-green to-logo-blue bg-clip-text text-transparent">
             The Rebels Behind YoPunky
           </h2>
           <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
